@@ -37,4 +37,5 @@ This plugin is based on https://wordpress.org/plugins/optimise-youtube-video-emb
 
 == Upgrade Notice ==
 
-* Nothing yet
+1.0.1
+* Correcting the reference to the plugin path
