@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) {
     die( 'No script kiddies please!' );
 }
 
-$assetsPath = plugins_url() . '/speed-youtube-page-embed/assets';
+$assetsPath = plugins_url( 'assets', __FILE__ );
 
 wp_enqueue_style('youtube-embed-page-css', $assetsPath . '/css/style-min.css');
 wp_enqueue_script('youtube-embed-page-script', $assetsPath . '/js/main-min.js', array('jquery'));
