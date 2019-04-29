@@ -39,3 +39,8 @@ This plugin is based on https://wordpress.org/plugins/optimise-youtube-video-emb
 
 1.0.1
 * Correcting the reference to the plugin path
+
+2.0.0
+* Improve CSS to avoid issues with theme or other plugins CSS
+* Implemented a class option so now it is possible to add CSS class to the main DIV
+* Check width and height to avoid issues 
